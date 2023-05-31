@@ -1,4 +1,5 @@
 var element = document.getElementsByClassName("btn");
+element[0].addEventListener(cambiar);
 
 function cambiar() {
     document.body.classList.toggle('tema-claro');
